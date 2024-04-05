@@ -1,0 +1,7 @@
+.player{
+    height: 100%;
+}
+.player_body{
+    display: flex;
+    height: 100%;
+}

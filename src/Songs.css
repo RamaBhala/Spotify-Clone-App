@@ -1,0 +1,116 @@
+.body{
+    /* border: 1px solid red; */
+    flex: 0.8;
+    flex-grow: 1;
+    overflow-y: auto;
+    /* padding: 30px; */
+    color: white;
+    /* height: 100vh; */
+    background: linear-gradient( rgb(91,87,115), rgba(0,0,0,1));
+    /* margin-left: 370px; */
+    /* width: 900px; */
+}
+
+.playlist_name{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 270px;
+    width: 100%;
+}
+
+.playlist_photo{
+    position: relative;
+    width: 280px;
+    height: 270px;
+}
+
+.liked_song_image{
+    position: relative;
+    margin-top: 45px;
+    /* margin-left: 40px; */
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    
+} 
+
+.playlist_information{
+    position: relative;
+    height: 270px;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;   
+    margin-left: 20px;
+}
+
+.play_title{
+    margin-top: 145px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.playlist_details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.playlist_owner{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.playlist_size{
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.playbutton_option{
+    margin-top: 5px;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 5px;
+}
+
+.songs_information{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 400;
+    color: #848789;
+}
+
+.serial_no{
+    margin-left: 15px;
+    width: 50px;
+    text-align: center;
+}
+
+.title{
+    width: 420px;
+    margin-right: 20px;
+}
+
+.album{
+    width: 350px;
+    margin-right: 20px;
+}
+
+.date_added{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.linebreak{
+    width: 97%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 1px;
+    background-color: #848789;
+    border: none;
+}

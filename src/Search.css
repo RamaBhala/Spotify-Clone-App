@@ -1,0 +1,51 @@
+.search {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.search_bar {
+    /* position: fixed; */
+    width: 100%;
+    height: 100px;
+}
+
+.content {
+    flex-grow: 1;
+    overflow-x: auto;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(5, 220px); /* 5 columns with equal width */
+    grid-template-rows: repeat(6, 220px); /* 5 rows with equal height */
+    gap: 10px; /* Gap between grid items (optional) */
+    /* padding: 10px; */
+    padding-left: 30px;
+}
+
+.grid-item {
+    /* border: 1px solid #999; /* Border around grid items */
+    /* border-radius: 10px; */ 
+    /* Additional styling as needed */
+    /* padding: 10px; */
+    height: 200px;
+    width: 200px;
+}
+
+.grid-image{
+    height: 175px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.grid-name{
+    /* background-color: blue; */
+    text-align: center;
+
+}

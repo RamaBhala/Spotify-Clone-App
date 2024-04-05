@@ -1,0 +1,30 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+}
+
+.sidebarOption:hover{
+    color: white;
+}
+
+.sidebarOption_icons{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.playlist_title{
+    margin-left: 50px;
+    color: white;
+    
+}
+
+.sidebar_image{
+    height: 36px;
+    width: 40px;
+    position: absolute;
+}
+
